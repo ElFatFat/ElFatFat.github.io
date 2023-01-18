@@ -1,0 +1,8 @@
+body{
+    &.french .en{
+        display: none!important;
+    }
+    &.english .fr{
+        display: none!important;
+    }
+}

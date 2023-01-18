@@ -1,0 +1,19 @@
+@mixin etiquette($color){
+    background-color: $color;
+    color: $white-color;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+}

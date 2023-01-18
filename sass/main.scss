@@ -1,0 +1,15 @@
+//Import colors
+@import "colors";
+@import "reset";
+@import "font";
+@import "language";
+@import "etiquette";
+
+body{
+    background-color: $black-color;
+    color: $white-color;
+}
+
+.etiquette{
+    @include etiquette($html-color);
+}

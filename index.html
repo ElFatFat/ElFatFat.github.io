@@ -1,30 +1,42 @@
 <!doctype html>
 
-<html lang="en">
+<html lang="fr">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>A Basic HTML5 Template</title>
-  <meta name="description" content="A simple HTML5 Template for new projects.">
-  <meta name="author" content="SitePoint">
+    <title>Valentin Trisson</title>
+    <meta name="description" content="Portfolio de Valentin Trisson">
+    <meta name="author" content="Valentin Trisson">
 
-  <meta property="og:title" content="A Basic HTML5 Template">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
-  <meta property="og:description" content="A simple HTML5 Template for new projects.">
-  <meta property="og:image" content="image.png">
+    <meta property="og:title" content="Valentin Trisson">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Portfolio de Valentin Trisson">
 
-  <link rel="icon" href="/favicon.ico">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+    <link rel="stylesheet" href="css/main.css">
 
 </head>
 
-<body>
-  <!-- your content here... -->
-  <script src="js/scripts.js"></script>
+<body id="root" class="french">
+    <p id="language">Bonjour !</p>
+    <div class="lang_selector">
+        <button id="fr" onclick="setLanguage('fr')">FR</button>
+        <button id="en" onclick="setLanguage('en')">EN</button>
+    </div>
+    <p class="en">Hi!</p>
+    <p class="fr">Bonjour !</p>
+    <p class="en">My name is Valentin Trisson, I'm a french student in computer science.</p>
+    <p class="fr">Blabla</p>
+
+    <div class="etiquette">
+        <p>• htMl</p>
+    </div>
+    <script src="js/language.js"></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
