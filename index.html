@@ -33,14 +33,18 @@
             <option value="francais" onclick="setLanguage('fr')">Français</option>
             <option value="english" onse="setLanguage('fr')">English</option>
         </select>
+        <img id='close-header' class='mobile' src="ressources/images/close.svg" id="close-menu" onclick="hideHeader()">
     </header>
+    <div id="header-button" class="mobile" onclick="showHeader()">
+        <img src="ressources/images/hamburger.svg" id="menu">
+    </div>
 
     <p class="en">Hi!</p>
     <p class="fr">Bonjour !</p>
     <p class="en">My name is Valentin Trisson, I'm a french student in computer science.</p>
     <p class="fr">Blabla</p>
     <div class="filler"></div>
-    <div class="filler"></div>
+    <div class="filler" onclick="showHeader()"></div>
 
     <div class="etiquette">
         <p>• htMl</p>

@@ -1,4 +1,5 @@
 #header {
+    z-index: 2;
     position: fixed;
     width: 100%;
     height: 6em;
@@ -11,6 +12,8 @@
 
     transition: all 0.3s ease-in-out;
 
+
+    @media only screen and (min-width: 769px) {
     &.headerScroll {
         backdrop-filter: blur(10px);
         width: calc(100% - 40px);
@@ -20,6 +23,7 @@
         background: rgba(154, 154, 154, 0.2);
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     }
+}
 
     #header-logo {
         height: 100%;
@@ -86,16 +90,15 @@
     #header {
         background-color: $black-color-darker;
         grid-template-columns: 100%;
-        grid-template-rows: 20% 60% 20%;
+        grid-template-rows: 10% 20% 50% 20%;
+        top: 100%;
         width: 100vw;
         height: 100vh;
-
-        &.headerScroll {
-            backdrop-filter: blur(10px);
-            width: 90%;
-            border-radius: 20px 20px 0 0;
-            margin-top: 20px;
-            margin-inline: 5%;
+        
+        &.headerShow{
+            transform: translateY(-100%);
+            width: 100vw;
+            height: 100vh;
         }
         #header-links {
             flex-direction: column;
@@ -107,18 +110,57 @@
             font-size: 1.4em;
             text-transform: uppercase;
             text-decoration: none;
-    
+            
             & a {
                 text-decoration: none;
                 color: $white-color;
                 font-family: "Montserrat", sans-serif;
                 transition: all 0.15s ease-in-out;
-    
+                
                 &:hover {
                     cursor: pointer;
                     transform: scale(1.08);
                 }
             }
+        }
+        #close-header {
+            width: 50px;
+            height: 50px;
+            border-radius: 0 0 0 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: $white-color;
+            font-size: 2em;
+            font-weight: 600;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+        #language-selector {
+            order: -1;
+        }
+    }
+    #header-button{
+        display: block;
+        position: fixed;
+        z-index: 1;
+        bottom: 10px;
+        right: 10px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        padding:10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $black-color-darker;
+        font-size: 2em;
+        font-weight: 600;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
         }
     }
 
