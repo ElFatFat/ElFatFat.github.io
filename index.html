@@ -22,20 +22,31 @@
 </head>
 
 <body id="root" class="french">
-    <p id="language">Bonjour !</p>
-    <div class="lang_selector">
-        <button id="fr" onclick="setLanguage('fr')">FR</button>
-        <button id="en" onclick="setLanguage('en')">EN</button>
-    </div>
+    <header id="header">
+        <div id="header-logo"><img src="ressources/images/Mccree_Profile_Picture.png"></div>
+        <div id="header-links">
+            <a href="cv.html">CV</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <select name="language-selector" id="language-selector" onchange="actualizeLanguage()">
+            <option value="francais" onclick="setLanguage('fr')">Français</option>
+            <option value="english" onse="setLanguage('fr')">English</option>
+        </select>
+    </header>
+
     <p class="en">Hi!</p>
     <p class="fr">Bonjour !</p>
     <p class="en">My name is Valentin Trisson, I'm a french student in computer science.</p>
     <p class="fr">Blabla</p>
+    <div class="filler"></div>
+    <div class="filler"></div>
 
     <div class="etiquette">
         <p>• htMl</p>
     </div>
     <script src="js/language.js"></script>
+    <script src="js/scroll-header.js"></script>
     <script src="js/script.js"></script>
 </body>
 

@@ -3,6 +3,7 @@
 @import "reset";
 @import "font";
 @import "language";
+@import "header";
 @import "etiquette";
 
 body{
@@ -12,4 +13,10 @@ body{
 
 .etiquette{
     @include etiquette($html-color);
+}
+
+.filler{
+    width: 600px;
+    height: 600px;
+    background-color: $html-color;
 }
