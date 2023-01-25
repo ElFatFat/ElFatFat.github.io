@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 636 99.3">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 60px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 5px;
+      }
+
+      .cls-4 {
+        letter-spacing: .03em;
+      }
+
+      .cls-4, .cls-5 {
+        font-family: Kanit-ExtraBold, Kanit;
+        font-weight: 700;
+      }
+
+      .cls-6 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.11em;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7, .cls-8 {
+        font-family: Kanit-Regular, Kanit;
+      }
+
+      .cls-8 {
+        letter-spacing: .03em;
+      }
+
+      .cls-9 {
+        letter-spacing: .01em;
+      }
+
+      .cls-10 {
+        letter-spacing: .03em;
+      }
+
+      .cls-11 {
+        letter-spacing: .03em;
+      }
+
+      .cls-2 {
+        font-family: Kanit-Light, Kanit;
+        font-size: 24px;
+        font-weight: 300;
+      }
+    </style>
+  </defs>
+  <g id="Calque_1-2" data-name="Calque 1">
+    <text class="cls-1" transform="translate(42.6 62.82)"><tspan class="cls-5" x="0" y="0">V</tspan><tspan class="cls-4" x="39.24" y="0">ALENTIN</tspan><tspan class="cls-8" x="296.1" y="0" xml:space="preserve"> TRI</tspan><tspan class="cls-7" x="401.63" y="0">S</tspan><tspan class="cls-8" x="434.88" y="0">SON</tspan></text>
+    <polyline class="cls-3" points="428 84.5 633.5 84.5 633.5 2.5 2.5 2.5 2.5 84.5 208 84.5"/>
+    <text class="cls-2" transform="translate(222.77 91.17)"><tspan class="cls-10" x="0" y="0">WEB D</tspan><tspan class="cls-9" x="73.44" y="0">EV</tspan><tspan class="cls-11" x="103.87" y="0">E</tspan><tspan class="cls-6" x="117.89" y="0">L</tspan><tspan class="cls-11" x="129.98" y="0">OPER</tspan></text>
+  </g>
+</svg>
